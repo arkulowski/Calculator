@@ -4,11 +4,11 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter the first whole number: ");
-        int num1 = input.nextInt();
+        System.out.print("Enter the first number: ");
+        double num1 = input.nextDouble();
 
-        System.out.print("Enter the second whole number: ");
-        int num2 = input.nextInt();
+        System.out.print("Enter the second number: ");
+        double num2 = input.nextDouble();
 
         System.out.print("Enter the operation you want to perform (+, -, *, /): ");
         String operation = input.next();
